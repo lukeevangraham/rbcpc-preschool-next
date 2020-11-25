@@ -1,11 +1,11 @@
 .Logo {
-    /* padding: 8px; */
-    height: 100%;
-  }
-  
-  .Logo img {
-    height: 50px;
-    width: auto;
-    margin-top: 2px;
-  }
-  
+  /* padding: 8px; */
+  height: 100%;
+  margin-top: 20px;
+}
+
+.Logo img {
+  height: 100px;
+  width: auto;
+  /* margin-top: 2px; */
+}

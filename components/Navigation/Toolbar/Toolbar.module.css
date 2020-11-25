@@ -1,6 +1,6 @@
 .Toolbar {
     background-color: rgb(71, 71, 71);
-    height: 56px;
+    /* height: 100px; */
     width: 100%;
     position: fixed;
     top: 0;
