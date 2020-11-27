@@ -5,8 +5,11 @@ import NavigationItem from "./NavigationItem/NavigationItem";
 
 const navigationItems = (props) => (
   <ul className={classes.NavigationItems}>
-    <NavigationItem link="/">Preschool</NavigationItem>
-    <NavigationItem link="/hello">Hello</NavigationItem>
+    <NavigationItem link="/">About Us</NavigationItem>
+    <NavigationItem link="/hello">Programs</NavigationItem>
+    <NavigationItem link="/hello">Tuition</NavigationItem>
+    <NavigationItem link="/hello">Parents</NavigationItem>
+    <NavigationItem link="/hello">Special Events</NavigationItem>
   </ul>
 );
 

@@ -1,3 +1,5 @@
+/* BASE GREEN:  #649979 */
+
 * {
   margin: 0;
   padding: 0;
@@ -16,4 +18,9 @@ body {
   font-weight: 400;
   font-size: 20px;
   text-rendering: optimizeLegibility;
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
 }
