@@ -1,11 +1,12 @@
 .Logo {
   /* padding: 8px; */
   /* height: 50%; */
-  margin-top: 20px;
+  /* margin-top: 20px; */
+  height: 100%;
 }
 
 .Logo img {
-  height: 100px;
+  height: 100%;
   width: auto;
   /* margin-top: 2px; */
 }

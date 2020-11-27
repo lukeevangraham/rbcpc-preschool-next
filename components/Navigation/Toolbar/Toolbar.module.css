@@ -1,24 +1,31 @@
 .Toolbar {
-    background-color: rgb(71, 71, 71);
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 0 20px;
-  }
-  
-  .Logo {
-    flex-grow: 1;
-  }
+  background-color: rgb(71, 71, 71);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 20px;
+  height: 120px;
+}
 
-  .innerToolbar {
-    display: flex;
-    align-items: center;
+.Logo {
+  /* flex-grow: 1; */
+  height: 80%;
+}
+
+.innerToolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+@media (max-width: 499px) {
+  .DesktopOnly {
+    display: none;
   }
   
-  
-  @media (max-width: 499px) {
-    .DesktopOnly {
-      display: none;
-    }
+  .Toolbar {
+    height: 70px;
   }
+}
