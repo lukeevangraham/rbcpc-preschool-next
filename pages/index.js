@@ -11,7 +11,12 @@ export default function Home() {
 <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600;700&display=swap" rel="stylesheet"></link>
       </Head>
 
-      <Layout />
+      <Layout home>
+        <div>testing</div>
+        <div>testing</div>
+        <div>testing</div>
+        <div>testing</div>
+      </Layout>
     </div>
   )
 }

@@ -1,0 +1,45 @@
+.btn,
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 400;
+  font-family: "Asap", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 200px;
+  margin-bottom: 18px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.full,
+.full {
+  background: linear-gradient(to bottom right, #649979, #224730);
+  border: 1px solid #649979;
+  color: #fff;
+  margin-right: 15px;
+}
+
+.ghost,
+.ghost {
+  border: 1px solid #649979;
+  color: #649979;
+  background-color: rgba(239, 239, 239, 0);
+}
+
+.btn:hover,
+.btn:active {
+  background: linear-gradient(to bottom right, #163321, #48755a);
+}
+
+.full:hover,
+.full:active {
+  border: 1px solid #3d5f4b;
+}
+
+.ghost:hover,
+.ghost:active {
+  border: 1px solid #3d5f4b;
+  color: #fff;
+}
