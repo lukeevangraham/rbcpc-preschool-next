@@ -15,27 +15,27 @@
 
 .full,
 .full {
-  background: linear-gradient(to bottom right, #649979, #224730);
-  border: 1px solid #649979;
+  background: linear-gradient(to bottom right, #6aa82f, #50851e);
+  border: 1px solid #5f9927;
   color: #fff;
   margin-right: 15px;
 }
 
 .ghost,
 .ghost {
-  border: 1px solid #649979;
-  color: #649979;
+  border: 1px solid #5f9927;
+  color: #5f9927;
   background-color: rgba(239, 239, 239, 0);
 }
 
 .btn:hover,
 .btn:active {
-  background: linear-gradient(to bottom right, #163321, #48755a);
+  background: linear-gradient(to top left, #528522, #4f8120);
 }
 
 .full:hover,
 .full:active {
-  border: 1px solid #3d5f4b;
+  border: 1px solid rgb(46, 71, 56);
 }
 
 .ghost:hover,

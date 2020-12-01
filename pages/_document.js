@@ -16,6 +16,7 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
         </body>
       </Html>
     )

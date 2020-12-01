@@ -1,0 +1,23 @@
+.HomeInfo {
+    margin-top: -250px;
+}
+
+.content {
+    position: relative;
+    background-color: white;
+    color: rgb(56, 56, 56);
+    margin-top: -100px;
+    padding-top: 0;
+}
+
+.longCopy {
+    line-height: 145%;
+    width: 70%;
+    margin: 0 0 0 15%;
+}
+
+.videoButton {
+    margin-bottom: 30px;
+    margin-top: 15px;
+    text-align: center;
+}
