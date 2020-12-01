@@ -1,0 +1,14 @@
+.sectionMeals {
+    padding: 0;
+}
+
+.mealsShowcase {
+    list-style: none;
+    width: 100%;
+}
+
+.mealsShowcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
