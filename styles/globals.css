@@ -19,12 +19,12 @@
 
 html,
 body {
-  background-image: linear-gradient(to right bottom, #2c854f, #207441);
+  /* background-image: linear-gradient(to right bottom, #2c854f, #207441); */
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
   overflow-x: hidden;
-  color: rgb(235, 235, 235);
+  color: rgb(49, 49, 49);
   font-family: "Asap", sans-serif;
   font-weight: 400;
   font-size: 20px;

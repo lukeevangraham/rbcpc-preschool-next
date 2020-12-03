@@ -19,7 +19,7 @@ const HomeInfo = (props) => {
       </svg>
       <section className={classes.content}>
         <div className="row">
-          <h2>A preschool with heart</h2>
+          <h2>A preschool with a big heart</h2>
           <p className={classes.longCopy}>
             Hello, we're RBCPC Preschool in San Diego. Your child is unique. We
             celebrate that. We love helping children like yours grow
@@ -39,7 +39,7 @@ const HomeInfo = (props) => {
           <div className="row section group">
             <div className="col span_3_of_12 box">
               <span className="icon-big">
-                <ion-icon name="extension-puzzle-outline"></ion-icon>
+              <i className="ion-map"></i>
               </span>
               <h3>Program Info</h3>
               <p>
@@ -49,7 +49,7 @@ const HomeInfo = (props) => {
             </div>
             <div className="col span_3_of_12 box">
               <span className="icon-big">
-                <ion-icon className="icon-big" name="heart-outline"></ion-icon>
+              <i className="ion-heart"></i>
               </span>
               <h3>Our Philosophy</h3>
               <p>
@@ -59,14 +59,14 @@ const HomeInfo = (props) => {
             </div>
             <div className="col span_3_of_12 box">
               <span className="icon-big">
-                <ion-icon name="people-outline"></ion-icon>
+              <i className="ion-ios-people"></i>
               </span>
               <h3>Our Staff</h3>
               <p>Meet our caring, wonderful staff.</p>
             </div>
             <div className="col span_3_of_12 box">
               <span className="icon-big">
-                <ion-icon name="logo-facebook"></ion-icon>
+              <i className="ion-social-facebook"></i>
               </span>
               <h3>Facebook</h3>
               <p>
