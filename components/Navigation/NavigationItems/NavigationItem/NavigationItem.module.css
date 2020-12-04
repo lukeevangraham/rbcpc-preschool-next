@@ -15,6 +15,10 @@
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.2s;
   }
+
+  .sticky a:link, .sticky a:visited {
+    color: #555
+  }
   
   .NavigationItem a:hover,
   .NavigationItem a:active {
