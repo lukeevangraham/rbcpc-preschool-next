@@ -24,24 +24,25 @@ const Layout = (props) => {
     <Aux>
       {props.home ? (
         <React.Fragment>
-          <div className={classes.homeHeader}>
-            <Toolbar
-              sticky={makeNavSticky}
-              drawerToggleClicked={sideDrawerToggleHandler}
-            />
-            <HomeHero />
-          </div>
+          <Waypoint
+            topOffset={"120px"}
+            onLeave={() => setMakeNavSticky(true)}
+            onEnter={() => setMakeNavSticky(false)}
+          >
+            <div className={classes.homeHeader}>
+              <Toolbar
+                sticky={makeNavSticky}
+                drawerToggleClicked={sideDrawerToggleHandler}
+              />
+              <HomeHero />
+            </div>
+          </Waypoint>
         </React.Fragment>
       ) : (
         <Toolbar drawerToggleClicked={sideDrawerToggleHandler} />
       )}
 
       <SideDrawer open={showSideDrawer} closed={sideDrawerClosedHandler} />
-      <Waypoint
-        topOffset={"120px"}
-        onLeave={() => setMakeNavSticky(true)}
-        onEnter={() => setMakeNavSticky(false)}
-      ></Waypoint>
       <main className={classes.Content}>{props.children}</main>
       <Footer />
     </Aux>
