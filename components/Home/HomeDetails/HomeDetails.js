@@ -1,6 +1,6 @@
 import React from "react";
 
-import classes from "./homeDetails.module.css";
+import classes from "./HomeDetails.module.css";
 
 const HomeDetails = (props) => {
   let attachedClasses = ["row", classes.homeDetails];
