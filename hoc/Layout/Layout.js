@@ -38,7 +38,6 @@ const Layout = (props) => {
 
       <SideDrawer open={showSideDrawer} closed={sideDrawerClosedHandler} />
       <Waypoint
-        debug={true}
         topOffset={"120px"}
         onLeave={() => setMakeNavSticky(true)}
         onEnter={() => setMakeNavSticky(false)}
