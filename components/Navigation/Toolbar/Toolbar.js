@@ -8,7 +8,8 @@ import DrawerToggle from "../SideDrawer/DrawerToggle/DrawerToggle"
 const Toolbar = (props) => {
   let attachedClasses = [classes.innerToolbar, "row"];
   return (
-    <header className={classes.Toolbar}>
+    <header className={props.sticky ? classes.Sticky : classes.Toolbar}>
+      {console.log("STICKY: ", props.sticky)}
       <div className={attachedClasses.join(" ")}>
       <DrawerToggle clicked={props.drawerToggleClicked} />
         <div className={classes.Logo}>
