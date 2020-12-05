@@ -1,7 +1,19 @@
 .homeHero {
-  max-width: 1140px;
+  position: absolute;
+  width: 1080px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* align-self: center; */
+  /* padding: 0 55px 120px 55px; */
+  /* margin: auto; */
+}
+
+/* Big tablet to 1200 (width smaller than the 1140 pixel row) */
+
+@media only screen and (max-width: 1200px) {
+.homeHero {
   width: 100%;
-  align-self: center;
-  padding: 0 55px 120px 55px;
-  margin: auto;
+  padding: 0 6%;
+}
 }

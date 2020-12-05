@@ -1,0 +1,7 @@
+/* Big tablet to 1200 (width smaller than the 1140 pixel row) */
+
+@media only screen and (max-width: 1200px) {
+.row {
+    padding: 0 2%;
+}
+}

@@ -9,7 +9,6 @@ const HomeDetails = (props) => {
       <div className="row">
         <div className="section group">
           <div className="col span_6_of_12">
-            <h3>Directions</h3>
             <div className={classes.map}>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3345.3682855140396!2d-117.06398604851846!3d33.02042647874616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dbf0db57f865cd%3A0x742484705eb26e6d!2sRBCPC%20Preschool!5e0!3m2!1sen!2sus!4v1607038621209!5m2!1sen!2sus"
@@ -24,17 +23,14 @@ const HomeDetails = (props) => {
             </div>
           </div>
           <div className="col span_6_of_12">
-            <h3>Preschool Office Hours</h3>
+            <h2>Preschool Office Hours</h2>
             <div className={classes.hours}>
               <div className={classes.hoursInner}>
                 <p>
-                  Monday through Friday , 8:00 AM - 4:00 PM <br />
-                  Phone: (858) 487-0824 <br />
-                  Fax: (858) 487-8203
-                </p>
-                <p>
-                  <br />
-                  Email us at{" "}
+                  <strong>Monday through Friday</strong>, 8:00 AM - 4:00 PM <br />
+                  <i className="ion-ios-telephone"></i>
+                   (858) 487-0824 <br />
+                  <i className="ion-ios-email"></i>
                   <a href="mailto:rbcpcpreschool@rbcpc.org">
                     rbcpcpreschool@rbcpc.org
                   </a>

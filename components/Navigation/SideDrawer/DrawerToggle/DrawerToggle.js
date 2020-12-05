@@ -5,8 +5,6 @@ import classes from "./DrawerToggle.module.css";
 const DrawerToggle = (props) => {
   let attachedClasses = [classes.DrawerToggle];
 
-  console.log("STICKY: ", props.sticky)
-
   props.sticky
     ? attachedClasses.push(classes.Sticky)
     : null;
