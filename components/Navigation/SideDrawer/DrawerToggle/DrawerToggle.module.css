@@ -16,6 +16,10 @@
     background-color: white;
 }
 
+.Sticky div {
+    background-color: #1d1d1d !important;
+}
+
 @media (min-width: 500px) {
     .DrawerToggle {
         display: none;
