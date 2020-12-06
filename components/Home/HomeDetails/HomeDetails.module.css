@@ -48,3 +48,20 @@
 .hours p i {
   margin-right: 8px;
 }
+
+/* SMALL PHONES to small tables: from 481 to 767px */
+
+@media only screen and (max-width: 767px) {
+  .hours {
+    padding: 0 0 4rem 0;
+  }
+  .hours p {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .hours {
+    padding-bottom: 5rem;
+  }
+}

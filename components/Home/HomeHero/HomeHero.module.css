@@ -1,7 +1,7 @@
 .homeHero {
   position: absolute;
   width: 1080px;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   /* align-self: center; */
@@ -12,8 +12,16 @@
 /* Big tablet to 1200 (width smaller than the 1140 pixel row) */
 
 @media only screen and (max-width: 1200px) {
-.homeHero {
-  width: 100%;
-  padding: 0 6%;
+  .homeHero {
+    width: 100%;
+    padding: 0 6%;
+  }
 }
+
+/* SMALL PHONES: from 0 to 480px */
+
+@media only screen and (max-width: 480px) {
+  .homeHero {
+    top: 40%;
+  }
 }
