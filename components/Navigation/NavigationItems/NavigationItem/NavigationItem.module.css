@@ -1,6 +1,25 @@
+.NavigationItem {
+  margin: 10px 0;
+  display: block;
+  width: 100%;
+}
+
+.NavigationItem a {
+  color: #5f9927;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+}
+
+.NavigationItem a:hover,
+.NavigationItem a:active {
+  color: #3b6117;
+  transition: color 0.2s;
+}
 
 
-@media (min-width: 500px) {
+
+@media (min-width: 768px) {
   .NavigationItem {
     margin-left: 40px;
   }

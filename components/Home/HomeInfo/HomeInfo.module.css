@@ -21,3 +21,32 @@
     margin-top: 15px;
     text-align: center;
 }
+
+/* Small tablet to big tablet: 768 to 1023px */
+
+@media only screen and (max-width: 1023px) {
+    .longCopy {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+/* SMALL PHONES to small tables: from 481 to 767px */
+
+@media only screen and (max-width: 767px) {
+    .longCopy {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .content {
+        margin-top: -50px;
+    }
+}
+
+/* SMALL PHONES: from 0 to 480px */
+
+@media only screen and (max-width: 480px) {
+    .content {
+        margin-top: -25px;
+    }
+}
